@@ -1,5 +1,5 @@
 # Week 1 – FNB App Academy
---------------------------
+---------------------------
 
 ## Section 1: Getting Started with HTML
 
