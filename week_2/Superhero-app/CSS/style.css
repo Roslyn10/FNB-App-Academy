@@ -4,6 +4,14 @@
 
 h2{
 	font-family: Impact, fantasy;
+	text-align: center;
+	font-size: 30px;
+	color: cornflowerblue;
+	font-style: italic;
+}
+
+h4{
+	font-family: Impact, fantasy;
 	font-size: 20px;
 	font-style: italic;
 	color: cornflowerblue;
