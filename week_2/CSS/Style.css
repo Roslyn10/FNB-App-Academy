@@ -4,3 +4,9 @@ h1{
 p{
     color: coral;
 }
+h1{
+    font-family: sans-serif;
+}
+p{
+    font-family: fantasy;
+}
