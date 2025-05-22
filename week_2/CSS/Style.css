@@ -10,3 +10,10 @@ h1{
 p{
     font-family: fantasy;
 }
+
+ul {
+    list-style-type: circles;
+}
+ol {
+    list-style-type: upper-roman;
+}
