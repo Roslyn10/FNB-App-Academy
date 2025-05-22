@@ -12,7 +12,7 @@ p{
 }
 
 ul {
-    list-style-type: circles;
+    list-style-image: url('../Images/pointer-icon.png');
 }
 ol {
     list-style-type: upper-roman;
