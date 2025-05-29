@@ -8,12 +8,12 @@ font-family: Helvetica;
 
 #header{
 position: fixed;
-top     : 0;
-left    : 0;
+top     : 0px;
+left    : 0px;
 z-index : 500;
 width   :100%;
 height  :80px;
-background-image  : url('images/wood-bg.png');
+background-image  : url('../Images/wood-bg.png');
 background-repeat: repeat-x;
 }
 #header img{
