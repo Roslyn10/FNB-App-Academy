@@ -73,3 +73,14 @@ padding-top: 15px;
     text-decoration: none;
     padding-top: none;
 }
+
+/*====== MAIN ==========*/
+#main{
+    margin-top: 119px;
+    background: url('../Images/map-blur.png');
+    background-repeat: repeat-y;
+}
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
