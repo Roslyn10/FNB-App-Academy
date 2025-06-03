@@ -162,7 +162,7 @@ a.info-box{
 a.info-box-full {
     background: rgba(255, 255, 255, .8);
 }
-img.info-box-weather-icon{
+.info-box-weather-icon{
     height: 30px;
     width:  30px;
     margin: 10px;
