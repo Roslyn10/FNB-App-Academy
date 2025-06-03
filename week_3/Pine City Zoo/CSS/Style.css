@@ -157,15 +157,13 @@ a.info-box{
     text-align: center;
 }
 
+/*============== WEATHER ==============*/ 
+
 img.info-box-weather-icon{
     height: 30px;
-    width: 30px !important;
+    width:  30px;
     margin: 10px;
     float: left;
-}
-
-.info-box-full{
-    background: rgba(255, 255, 255, .8);
 }
 
 h1.info-box-weather-icon{
