@@ -164,6 +164,10 @@ img.info-box-weather-icon{
     float: left;
 }
 
+.info-box-full{
+    background: rgba(255, 255, 255, .8);
+}
+
 h1.info-box-weather-icon{
     font-size: 65px;
     font-weight: 200;
