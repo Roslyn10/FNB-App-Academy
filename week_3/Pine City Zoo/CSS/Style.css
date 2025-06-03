@@ -98,10 +98,28 @@ a.info-box{
     padding: 1px;
 }
 
+.info-content {
+    display: flex;
+    align-items: center;
+}
+
+.info-box-img {
+    height: 70px;
+    margin: 10px;
+}
+
 .info-box-img{
     height: 70px;
     margin: 10px;
-    float: left;
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+}
+
+.img-content .text{
+    margin-left: 10px;
 }
 
 .info-box h3{
