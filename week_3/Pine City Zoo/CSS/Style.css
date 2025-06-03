@@ -137,3 +137,22 @@ a.info-box{
     margin-top: 25px;
     height: 40px;
 }
+
+/*============ INFO BOX FULL =======*/
+
+#info-boxfull{
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
+}
