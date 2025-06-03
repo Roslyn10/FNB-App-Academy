@@ -159,10 +159,10 @@ a.info-box{
 
 /*============== WEATHER ==============*/ 
 
-a.info-box-full {
-    background: rgba(255, 255, 255, .8);
+.info-box-full {
+    background: rgba(255, 255, 255, .8)
 }
-.info-box-weather-icon{
+img.info-box-weather-icon{
     height: 30px;
     width:  30px;
     margin: 10px;
