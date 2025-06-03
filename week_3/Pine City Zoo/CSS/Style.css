@@ -71,7 +71,7 @@ padding-top: 15px;
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-top: 0;;
+    padding-top: 0;
 }
 
 /*========== MAIN ========== */
@@ -159,6 +159,9 @@ a.info-box{
 
 /*============== WEATHER ==============*/ 
 
+a.info-box-full {
+    background: rgba(255, 255, 255, .8);
+}
 img.info-box-weather-icon{
     height: 30px;
     width:  30px;
