@@ -1,4 +1,7 @@
-# Week 3 – Pine City Zoo App Academy
+# Week 3 – FNB App Academy
+--------------------------
+
+## Pine City Zoo
 
 ## Section 1: Getting Started with HTML/CSS
 
