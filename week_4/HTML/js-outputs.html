@@ -9,8 +9,16 @@
         <p id="paragraph-1">This is a paragraph written with html.</p>
 
         <script>
-            document.getElementById("main-heading").innerHTML = ("This heading was written by JavaScript.")
-            document.getElementById("paragraph-1").innerHTML = ("This paragraph was written by JavaScript.")
+            var text1;
+            var text2;
+            var text3;
+
+            text1 = "This is variable 1"
+            text2 = "This is variable 2 "
+            text3 = "This is variable 3"
+
+            document.getElementById("main-heading").innerHTML = (text1);
+            document.getElementById("paragraph-1").innerHTML = (text2 + text3);
         </script>
     </body>
 </html>
