@@ -8,7 +8,7 @@
         <h1 id="heading" onclick="changeText()"> JavaScript</h1>
         <p id="addition"></p>
         <script>
-                addNumbers(10, 7);
+                document.getElementById("Addition").innerHTML = addNumbers(10, 7);
 
                 function changeText() {
                     if (document.getElementById("heading").innerHTML == 'JavaScript') {
@@ -19,7 +19,7 @@
                 }
 
                 function addNumbers(num1, num2) {
-                    document.getElementById("addition").innerHTML = num1 + num2;
+                    return num1 + num2;
                 }
         </script>
 
