@@ -10,10 +10,10 @@
             <option value="sunny">Sunny</option>
             <option value="windy">Windy</option>
             <option value="rainy">Rainy</option>
-            <option values="snowy">Snowy</option>
-            <option values="cloudy">Cloudy</option>
+            <option value="snowy">Snowy</option>
+            <option value="cloudy">Cloudy</option>
         </select>
-        <a href="#">GO!</a>
+        <a href="#" onlcick="btnPressed()"GO!></a>
         <p id="outputText">Weather advice : </p>
         
         <script>
@@ -29,7 +29,7 @@
                         advice = "Wear a jacket";
                         break;
                     case "snowy":
-                        advice = "Dress warm"
+                        advice = "Dress warm";
                         break;
                     case "rainy":
                         advice = "Wear a rain coat and carry an umbrella";
@@ -38,7 +38,7 @@
                         advice ="Carry a jacket. It might rain";
                         break;
                 }
-                document.getElementById("outputText").innerHTML = "Weather advice" + advice;
+                document.getElementById("outputText").innerHTML = "Weather advice: " + advice;
             }
         </script>
 
