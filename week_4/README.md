@@ -49,8 +49,3 @@
 
 15. **Lesson 15: Numbers and Strings Part 3 – Avoiding Conversion Errors**  
 *Fix common conversion errors and update broken navigation links in your project.*
-
----
-
-**End of Week 4**  
-*You now understand JavaScript basics — including variables, functions, logic, and form validation — and are ready to add dynamic behavior to your web projects!*  
