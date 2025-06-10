@@ -2,7 +2,6 @@
 --------------------------
 
 ## Section 1: JavaScript Basics 
----
 
 1.  **Lesson 1: JavaScript Outputs**
 *Learn how to display content dynamically on your webpage using JavaScript.*
@@ -41,7 +40,6 @@
 *Use `switch` statements as an alternative to long `if`/`else` chains.*
 
 ## Section 2: Numbers and Strings
----
 
 13. **Lesson 13: Numbers and Strings Part 1** 
 *Learn the difference between numbers and strings and how JavaScript treats them.*
