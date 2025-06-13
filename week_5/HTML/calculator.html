@@ -30,7 +30,7 @@
                 <td onclick="digitBtnPressed()">+</td>
             </tr>
             <tr>
-                <td colspan="2">0</td>
+                <td colspan="2" onclick="digitBtnPressed(0)">0</td>
                 <td onlcick="digitBtnPressed( )">AC</td>
                 <td onclick="digitBtnPressed()">/</td>
             </tr>
@@ -40,10 +40,17 @@
         </table>
 
         <script>
+            var newline = true;
             
             function digitBtnPressed(button) {
-                var currentValue = document.getElementById("inputBox").value;
-                document.getElementById("inputBox").value =  currentValue + button;
+
+                if(newline) {
+                    document.getElementById(inputBox).value = button;
+                    newline = false;
+                } else {
+                    var currentValue = document.getElementById("inputBox").value;
+                    document.getElementById("inputBox").value =  currentValue + button;
+                }
             }
         </script>
     </body>
