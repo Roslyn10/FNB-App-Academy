@@ -15,24 +15,24 @@
                 <td onclick="digitBtnPressed(7)">7</td>
                 <td onclick="digitBtnPressed(8)">8</td>
                 <td onclick="digitBtnPressed(9)">9</td>
-                <td onclick="digitBtnPressed('x')">x</td>
+                <td onclick="operatorBtnPressed('x')">x</td>
             </tr>
             <tr>
                 <td onclick="digitBtnPressed(4)">4</td>
                 <td onclick="digitBtnPressed(5)">5</td>
                 <td onclick="digitBtnPressed(6)">6</td>
-                <td onclick="digitBtnPressed('-')">-</td>
+                <td onclick="operatorBtnPressed('-')">-</td>
             </tr>
             <tr>
                 <td onclick="digitBtnPressed(1)">1</td>
                 <td onclick="digitBtnPressed(2)">2</td>
                 <td onclick="digitBtnPressed(3)">3</td>
-                <td onclick="digitBtnPressed('+')">+</td>
+                <td onclick="operatorBtnPressed('+')">+</td>
             </tr>
             <tr>
                 <td colspan="2" onclick="digitBtnPressed(0)">0</td>
                 <td onclick="btnACPressed()">AC</td>
-                <td onclick="digitBtnPressed('/')">/</td>
+                <td onclick="operatorBtnPressed('/')">/</td>
             </tr>
             <tr>
                 <td colspan="4">=</td>
@@ -41,6 +41,9 @@
 
         <script>
             var newline = true;
+            var value1;
+            var currentOPerator;
+
             
             function digitBtnPressed(button) {
 
@@ -57,6 +60,12 @@
 
             function btnACPressed() {
                 document.getElementById("inputBox").value = 0;
+                newline = true;
+            }
+
+            function operatorBtnPressed(operator) {
+                currentOPerator = operator;
+                value1 = parseInt(document.getElementById("inputBox").value1);
                 newline = true;
             }
         </script>
