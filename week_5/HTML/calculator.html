@@ -15,24 +15,24 @@
                 <td onclick="digitBtnPressed(7)">7</td>
                 <td onclick="digitBtnPressed(8)">8</td>
                 <td onclick="digitBtnPressed(9)">9</td>
-                <td onclick="digitBtnPressed(x)">x</td>
+                <td onclick="digitBtnPressed('x')">x</td>
             </tr>
             <tr>
                 <td onclick="digitBtnPressed(4)">4</td>
                 <td onclick="digitBtnPressed(5)">5</td>
                 <td onclick="digitBtnPressed(6)">6</td>
-                <td onclick="digitBtnPressed()">-</td>
+                <td onclick="digitBtnPressed('-')">-</td>
             </tr>
             <tr>
                 <td onclick="digitBtnPressed(1)">1</td>
                 <td onclick="digitBtnPressed(2)">2</td>
                 <td onclick="digitBtnPressed(3)">3</td>
-                <td onclick="digitBtnPressed()">+</td>
+                <td onclick="digitBtnPressed('+')">+</td>
             </tr>
             <tr>
                 <td colspan="2" onclick="digitBtnPressed(0)">0</td>
                 <td onlcick="digitBtnPressed( )">AC</td>
-                <td onclick="digitBtnPressed()">/</td>
+                <td onclick="digitBtnPressed('/')">/</td>
             </tr>
             <tr>
                 <td colspan="4">=</td>
@@ -45,7 +45,7 @@
             function digitBtnPressed(button) {
 
                 if(newline == true) {
-                    document.getElementById(inputBox).value = button;
+                    document.getElementById("inputBox").value = button;
                     newline = false;
                 } else {
                     var currentValue = document.getElementById("inputBox").value;
