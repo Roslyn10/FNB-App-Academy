@@ -14,11 +14,11 @@ We add logic to remove the default zero from the display when the user starts en
 ### Lesson 4: AC Button Event Handler  
 We implement the event handler for the AC (All Clear) button, which clears the calculator's input area.
 
-5. **Lesson 5: Operator Button Event Handler**  
+### Lesson 5: Operator Button Event Handler 
 We create event handlers for the operator buttons (+, −, ×, ÷), allowing users to perform calculations.
 
-6. **Lesson 6: Equals Button Event Handler**  
+### Lesson 6: Equals Button Event Handler
 We finalize the calculator logic by adding an event handler for the equals button, enabling calculation execution.
 
-7. **Lesson 7: Styling**  
+### Lesson 7: Styling
 With the JavaScript functionality complete, we enhance the appearance of the calculator with CSS styling.
