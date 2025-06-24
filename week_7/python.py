@@ -78,4 +78,15 @@ if num1> 0:
 elif num1 == 0:
   print("This numberis zero")
 else:
-  print("This number is negative ")  
+  print("This number is negative ") 
+
+# Control Statements Part2
+num2 = int(input("Enter the first number:"))
+num3 = int(input("Enter the second number:"))
+
+if num2 > num3:
+  print(num2, "is greater than", num3)
+elif num3 > num2:
+  print(num3, "is greater than", num2)
+else:
+  print("both numbers are equal")
