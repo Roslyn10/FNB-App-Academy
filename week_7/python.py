@@ -48,3 +48,13 @@ z += 2
 
 z -= 2
 print(z)
+
+# operators with strings 
+
+str1 = 'Hello'
+str2 = 'world'
+
+print(str1 + "" + str2) #Prints the statements without a spce inbetween
+print(str1 + " " + str2) #Prints the statements with a space inbetween
+print(str1 + " " + str2 + " " + str2) # Prints A string more than once 
+print(str1 * 3) #Allows you to print a string multiple times depending on the amount you want 
