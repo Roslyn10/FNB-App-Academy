@@ -18,3 +18,33 @@ user = 'Lilly'
 #Invalid 
 # An invalid variable name 2nd_variable = 10
 # Invalid variable name = user-name = 20
+
+#Operators on Numeric data
+
+# Addition (+)
+# Subtraction(-)
+# Multiplication(*)
+# Division(/)
+# Modulus(%) #Is the remainder after division
+# Exponent(**)
+
+x = 10
+y = 2
+
+print(x+y)
+print(x*y)
+print(x-y)
+print(x/y)
+print(x%y) 
+print(13%6)
+print(x**y)
+
+#Assignment operators
+
+z = 10
+z = z + 2 # This is the same as below
+z += 2
+
+
+z -= 2
+print(z)
