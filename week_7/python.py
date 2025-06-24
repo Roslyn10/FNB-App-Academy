@@ -57,4 +57,25 @@ str2 = 'world'
 print(str1 + "" + str2) #Prints the statements without a spce inbetween
 print(str1 + " " + str2) #Prints the statements with a space inbetween
 print(str1 + " " + str2 + " " + str2) # Prints A string more than once 
-print(str1 * 3) #Allows you to print a string multiple times depending on the amount you want 
+print(str1 * 3) #Allows you to print a string multiple times depending on the amount you want
+
+#Control Statements
+
+num = 9
+
+#Checking 2 conditions
+if num > 0:
+  print("This number is positive.")
+else:
+    print("This number is either zero or negative")
+
+# Checking 3 different conditions
+
+num1 = 0
+
+if num1> 0:
+  print("This number is positive")
+elif num1 == 0:
+  print("This numberis zero")
+else:
+  print("This number is negative ")  
