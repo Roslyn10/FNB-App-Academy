@@ -90,3 +90,26 @@ elif num3 > num2:
   print(num3, "is greater than", num2)
 else:
   print("both numbers are equal")
+
+#Loops - For loops
+
+fruits = ["apples", "banana", "cherry"]
+
+for fruit in fruits:
+  print(fruit) #Prints one iteration of the list with its content 
+
+numbers = [1, 2, 3, 5, 7]
+
+for number in numbers:
+  print(numbers) #Prints out the number of content based on the variables in the list 
+
+  print(number)
+
+# While loops
+# Using a while loop to count from 1 to 5
+
+count = 1
+
+while count <= 5:
+  print(count)
+  count+=1 #Increments the count by one
