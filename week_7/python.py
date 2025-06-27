@@ -113,3 +113,35 @@ count = 1
 while count <= 5:
   print(count)
   count+=1 #Increments the count by one
+
+# Loop control satements
+vegtables = ["carrots", "leeks", "brocolli", "potatoes" ]
+
+for vegtable in vegtables:
+  if vegtable == "brocolli":
+    break #Exits the loop if brocolli if found
+  print(vegtable)
+
+print()
+
+for vegtable in vegtables:
+  if vegtable == "brocolli":
+    continue #Skips brocolli and moves to the iteration
+  print(vegtable)
+
+print()
+
+for vegtable in vegtables:
+  if vegtable == "brocolli":
+    pass #Placeholder, no action is needed for brocolli
+  print(vegtable)
+
+#While Control Statements 
+
+total = 0
+
+while total < 5:
+  print(total)
+  total += 1
+  if total == 3:
+    break; #Exits the loop when the total is reached = 3
