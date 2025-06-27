@@ -31,8 +31,12 @@
 
                         <tr>
                                 <td><img src="${rootPath}controller/uploads/${data[a].avatar}"/></td>
+                                <td><h5>${data[a].firstname}</h5></td>
+                                <td><h5>${data[a].lastname}</h5></td>
                         </tr>
         }
+        output += "</table>"
+        document.getElementById("table")
     }
     </script>
 </body>
