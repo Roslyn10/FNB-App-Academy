@@ -31,6 +31,7 @@
             var id = getId();
             document.getElementById("homeLink").addEventListener('click', homeLink);
             document.getElementById("editContact").addEventListener('click', editContact);
+            document.getElementById("editForm").addEventListener("submit", submitForm);
             console.log("The id id :" + id);
 
             function getId(){
@@ -80,7 +81,7 @@
             function submitForm(e){
                 e.preventDefault();
 
-                const form = new FormData(documet.querySelector("#editForm"));
+                const form = new FormData(document.querySelector("#editForm"));
                 form.append('apiKey', apiKey);
                 form.append('id', id);
 
@@ -94,11 +95,11 @@
                 })
                 .then(function(data){
                     if(data == "1"){
-                        alert("Contact eited.");
+                        alert("Contact edited.");
                         homeLink();
                     }else{
                         alert(data);
-                        homeLink;
+                        homeLink();
                     }
                 })
             }
