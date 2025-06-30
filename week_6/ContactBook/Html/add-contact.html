@@ -26,13 +26,16 @@
     <script src="../JS/config.js"></script>
     <script>
 
+        document.getElementById("submitForm").addEventListener('click', submitForm);
+        document.getElementById("homeLink").addEventListener('click', homeLink);
+        
         function submitForm(e){
             e.preventDefault();
 
             const form = FormData(document.querySelector('#editForm'));
             form.append('apiKey', apiKey);
 
-            fetch(rootPath + 'controller/insert-contact', {
+            fetch(rootPath + 'controller/insert-contact/', {
                 method: 'POST',
                 headers: {'Accept': 'application/json, *.*'},
                 body: form
@@ -43,12 +46,16 @@
             .then(function(data){
                 if(data == "1"){
                     alert("Contact added.");
-                    //link to homepage
+                    homeLink();
                 }else{
                     alert(data);
-                    //link to home page
+                    homeLink();
                 }
             })
+        }
+
+        function homeLink(){
+            windo.open("index.html", "_self");
         }
     </script>
 </body>
