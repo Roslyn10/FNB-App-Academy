@@ -54,6 +54,17 @@
                 window.open("index.html", "_self");
             }
 
+            function displayOutput(data){
+                avatarImg = `
+                <img src="${rootPath}/controller/uploads/${data[0].avatar}"
+                `
+                document.getElementById("avatarImage").innerHTML = avatarImg;
+                document.getElementById("firstname").value = data[0].firstname;
+                document.getElementById("lastname").value = data[0].lastname;
+                document.getElelmentById("mobile").value = data[0].mobile;
+                document.getElementById("email").value = data[0].email;
+             }
+
         </script>
     </body>
 </html>
