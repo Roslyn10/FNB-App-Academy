@@ -57,8 +57,9 @@
 
             function displayOutput(data){
                 avatarImg = `
-                <img src="${rootPath}/controller/uploads/${data[0].avatar}"
-                `
+                <img src="${rootPath}controller/uploads/${data[0].avatar}"/>
+                `;
+
                 document.getElementById("avatarImage").innerHTML = avatarImg;
                 document.getElementById("firstname").value = data[0].firstname;
                 document.getElementById("lastname").value = data[0].lastname;
@@ -66,14 +67,16 @@
                 document.getElementById("email").value = data[0].email;
              }
 
-             function editContact(){
+            function editContact(){
                 document.getElementById("firstname").readOnly = false;
                 document.getElementById("lastname").readOnly = false;
-                doucment.getElementById("mobile").readOnly = fasle;
+                document.getElementById("mobile").readOnly = false;
                 document.getElementById("email").readOnly = false;
                 document.getElementById("avatar").hidden = false;
                 document.getElementById("submitForm").hidden = false;
-             }
+                document.getElementById("avatarLabel").hidden = false;
+            }        
+
 
         </script>
     </body>
