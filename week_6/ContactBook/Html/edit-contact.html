@@ -76,7 +76,14 @@
                 document.getElementById("submitForm").hidden = false;
                 document.getElementById("avatarLabel").hidden = false;
             }        
+            
+            function submitForm(e){
+                e.preventDefault();
 
+                const form = new FormData(documet.querySelector("#editForm"));
+                form.append('apiKey', apiKey);
+                form.append('id', id);
+            }
 
         </script>
     </body>
