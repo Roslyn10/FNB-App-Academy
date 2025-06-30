@@ -32,7 +32,7 @@
             document.getElementById("homeLink").addEventListener('click', homeLink);
             document.getElementById("editContact").addEventListener('click', editContact);
             document.getElementById("editForm").addEventListener("submit", submitForm);
-            document.getElementById("deleteContact").addEventListener('click', deletContact);
+            document.getElementById("deleteContact").addEventListener('click', deleteContact);
             console.log("The id id :" + id);
 
             function getId(){
@@ -115,6 +115,7 @@
                     })
                     .then(function(data){
                         if(data == "1"){
+                            alert("Contact deleted successfully.")
                             homeLink();
                         } else {
                             alert(data);
