@@ -23,5 +23,6 @@ for price in prices:
   total += price
 
 print("---- YOUR CART ----")
+print("Thank you for shopping with us today!!")
 print()
 print(f"Your total is: R{total}")
