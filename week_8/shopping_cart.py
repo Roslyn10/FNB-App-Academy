@@ -22,6 +22,7 @@ for food in foods:
 for price in prices:
   total += price
 
+print()
 print("---- ADDED TO YOUR CART ----")
 print("Thank you for shopping with us today!!")
 print()
