@@ -1,6 +1,8 @@
 # Week 1 – FNB App Academy
 ---------------------------
 
+## Html Basics
+
 ## Section 1: Getting Started with HTML
 
 1. **Lesson 1: Introduction to HTML**  

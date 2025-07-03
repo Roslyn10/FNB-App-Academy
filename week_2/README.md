@@ -1,8 +1,9 @@
 # Week 2 – FNB App Academy
 ---------------------------
 
-## Section 1: Getting Started with CSS
+##  CSS Basics
 
+## Section 1: Getting Started with CSS
 
 1. **Lesson 1: Introduction to CSS**  
    *Overview of what CSS is and why it’s used (Cascading Style Sheets for presentation, separate from HTML structure).* 
