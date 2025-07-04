@@ -6,7 +6,7 @@
 ## Section1: Working with Lists
 
 1. **Lesson 1: Lists Part 1**
-    Learn about lists, Python’s ordered and changeable collection type. Access items using indexes, update elements, and print specific values.
+    *Learn about lists, Python’s ordered and changeable collection type. Access items using indexes, update elements, and print specific values.
 
 2. **Lesson 2: Lists Part 2**
     Add items to a list using append() and insert(). Remove items with remove(), and sort lists in ascending or descending order using sort() and sort(reverse=True).

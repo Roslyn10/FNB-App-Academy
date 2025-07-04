@@ -6,22 +6,22 @@
 ## Section 1: Getting Started with HTML/CSS
 
 1. **Lesson 1: Setup**  
-   Create a folder named `Pine City Zoo` in your `Documents/Websites` directory and an `images` folder inside it for media assets.
+   *Create a folder named `Pine City Zoo` in your `Documents/Websites` directory and an `images` folder inside it for media assets.*
 
 2. **Lesson 2: Home Page HTML**  
-   Create `index.html` with a basic HTML5 structure. Add a top navigation bar with the zoo logo and three tabs: Animals, Map, and Places. Add a main section with a placeholder map image. Include a bottom navigation bar with Weather and Feedback links.
+   *Create `index.html` with a basic HTML5 structure. Add a top navigation bar with the zoo logo and three tabs: Animals, Map, and Places. Add a main section with a placeholder map image. Include a bottom navigation bar with Weather and Feedback links.*
 
 3. **Lesson 3: Header Styling (CSS)**  
-   Use CSS to style the top bar with a wooden background and center the Pine City Zoo logo using `text-align: center;`.
+   *Use CSS to style the top bar with a wooden background and center the Pine City Zoo logo using `text-align: center;`.*
 
 4. **Lesson 4: Top Tabs Styling (CSS)**  
-   Create horizontal navigation using `<ul>` and `<li>`. Style tabs with white backgrounds, blue borders, and `float: left;`. Add hover effects for interactivity.
+   *Create horizontal navigation using `<ul>` and `<li>`. Style tabs with white backgrounds, blue borders, and `float: left;`. Add hover effects for interactivity.*
 
 5. **Lesson 5: Main Section Styling**  
-   Add spacing using `margin-top` to ensure main content appears below the fixed top bar and navigation tabs.
+   *Add spacing using `margin-top` to ensure main content appears below the fixed top bar and navigation tabs.*
 
 6. **Lesson 6: Bottom Tabs Styling (CSS)**  
-   Style bottom tabs with a blue background and white text. Use `float: left;` for layout and center text using `text-align: center;`.
+   *Style bottom tabs with a blue background and white text. Use `float: left;` for layout and center text using `text-align: center;`.*
 
 ---
 
