@@ -1,7 +1,7 @@
 # Basics of exceptions
 
 try:
-  print(x)
+  print(x) # type: ignore
 # except NameError:
 #  print("Variable x is not defined")
 except:
