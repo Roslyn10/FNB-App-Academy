@@ -12,7 +12,7 @@ finally:
 # using the else block
 
 try:
-  print(x)
+  print(x) # type: ignore
 except NameError:
   print("Variable x is not defined")
 else:
